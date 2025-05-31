@@ -13,4 +13,4 @@ Context : The company is a UK-based, solely online retail company, and the data 
 - 1. "Retain"
 
 Characteristics:
-Cluster - kmeans.png
+image: /assets/Cluster-kmeans.png
