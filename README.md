@@ -1,4 +1,4 @@
-# online_retail
+# Data Science Project: Online retail Industry
 
 ## Topic
 
@@ -6,11 +6,47 @@ K-Means Clustering for Customer Segmentation for a online-retail company
 
 Context : The company is a UK-based, solely online retail company, and the data ranges from 01/12/2009 to 09/12/2011. The company focuses on selling special occasions gifts, and a good chunk of their customers are wholesalers
 
+
+
+
 #### Insights
 
-4 groups of customers : 
+Using K-Means clustering, there are 4 significant group of customers that the company should focus their Marketing Campaigns upon, ideally in a strategic way tailoring to their purchase behaviours.
 
-- 1. "Retain"
 
-Characteristics:
-image: /assets/Cluster-kmeans.png
+- Group 1 (Blue cluster): **"Retain"**
+
+  - Characteristics: Relatively spent high amount of money, and spent very regularly, but those purchases are not always recent
+
+  - Action: Encourage them to be active again with the client, i.e go in depth into what section of goods they have bought, has the client got rid of such items, or any other reasons that could have impacted their purchase
+ 
+- Group 2 (Orange cluster): **"Engage"**
+ 
+  - Characteristics: These are customers who interacted with the brand very recently, hence explaining their recent purchases, low frequency (mostly 1 or 2 times), and low money spending. 
+
+  - Action: Run more ad campaigns to remind them of the brand, send out mails or text messages asking for their feedbacks, etc.
+
+- Group 3 (Green cluster): **"Reward"**
+ 
+  - Characteristics: These customers are loyal to the brand, spent the highest amount and spent very regularly, but have not interacted with the brand recently.
+
+  - Action: Should start rewarding scheme immediately to draw back their attention, as these are the customers that drives the big part of the company financial growth.
+    
+        Could also run customer in-depth analysis to see why they have stopped purchasing recently
+
+- Group 4 (Red cluster): **"Re-engage"**
+ 
+  - Characteristics: This group has the pattern of : low spending, low frequency, and have not purchased recently.
+
+  - Action: Start running marketing ads to gain their attention, but could consider cutting this group to save cost. 
+
+
+
+| Results |
+|:-------------------------:|
+|<img width="1604" alt="screen" src="assets/Cluster - kmeans.png">|
+
+#### Why K-Means Clustering
+Relied on randomly initialsed centroids, K-Means Clustering method looks for the stationary states of centroids where each distance vectors of points within the cluster, to its centroid, is minimised, while that of other centroids, is maximised
+
+To: further confirm the number of clusters, i.e 4 cluster in this context, 'silhouette scores' are computed to compare the level of overlapping of clusters, between choosing 4, or 5 clusters. If the level of overlapping is high, clusters are not really distinct from each other, thus not creating a clear characteristic of customers behaviours.
