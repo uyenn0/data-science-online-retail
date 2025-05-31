@@ -11,5 +11,6 @@ Context : The company is a UK-based, solely online retail company, and the data 
 4 groups of customers : 
 
 - 1. "Retain"
-Characteristics:
 
+Characteristics:
+Cluster - kmeans.png
