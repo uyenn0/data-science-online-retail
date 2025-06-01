@@ -7,9 +7,18 @@ K-Means Clustering for Customer Segmentation for a online-retail company
 Context : The company is a UK-based, solely online retail company, and the data ranges from 01/12/2009 to 09/12/2011. The company focuses on selling special occasions gifts, and a good chunk of their customers are wholesalers
 
 
+## Skills Applied:
+- EDA: Retain 77% of cleaned data and applicable data for clustering, while using the other 23% data for outlier analysis, thus maintained most data for the company
+- Feature Engineering: Construct
+    1. MonetaryValue: How much a customer has spent, across the sum of their orders
+    2. Frequency: Use InvoiceDate to count how many times they have placed an order
+    3. Recency: Use InvoiceDate to check the last time a customer placed their purchase
 
+  These three features, once combined, helped with paiting a clear image of different types of customers within this company.
 
-#### Insights
+- K-Means Clustering: Identified 4 groups of customers
+
+## Insights
 
 Using K-Means clustering, there are 4 significant group of customers that the company should focus their Marketing Campaigns upon, ideally in a strategic way tailoring to their purchase behaviours.
 
@@ -22,7 +31,7 @@ Using K-Means clustering, there are 4 significant group of customers that the co
  
 - Group 2 (Orange cluster): **"Engage"**
  
-  - Characteristics: These are customers who interacted with the brand very recently, hence explaining their recent purchases, low frequency (mostly 1 or 2 times), and low money spending. 
+  - Characteristics: These are customers who interacted with the brand very recently, hence explaining their fairly low level spending , also have low frequency (mostly 1 or 2 times).
 
   - Action: Run more ad campaigns to remind them of the brand, send out mails or text messages asking for their feedbacks, etc.
 
@@ -30,7 +39,7 @@ Using K-Means clustering, there are 4 significant group of customers that the co
  
   - Characteristics: These customers are loyal to the brand, spent the highest amount and spent very regularly, but have not interacted with the brand recently.
 
-  - Action: Should start rewarding scheme immediately to draw back their attention, as these are the customers that drives the big part of the company financial growth.
+  - Action: Should start rewarding scheme immediately to draw back their attention, as these are the customers who drive the big part of the company financial growth.
     
         Could also run customer in-depth analysis to see why they have stopped purchasing recently
 
