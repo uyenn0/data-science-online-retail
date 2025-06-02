@@ -18,6 +18,8 @@ Context : The company is a UK-based, solely online retail company, and the data 
 
 - K-Means Clustering: Identified 4 groups of customers
 
+- Outliers Detection: identified overlapped customers in their Spending Capacity, and their Frequency of Purchase
+
 ## Insights
 
 **1.**  **4285 unqiue customes** out of **406309** cleaned entries.
@@ -37,7 +39,7 @@ Context : The company is a UK-based, solely online retail company, and the data 
         >> Also need investigation to see why this is the case
 
     
-**2.** Using K-Means clustering, there are 4 significant group of customers that the company should focus their Marketing Campaigns upon, ideally in a strategic way tailoring to their purchase behaviours.
+**3.** Using K-Means clustering, there are 4 significant group of customers that the company should focus their Marketing Campaigns upon, ideally in a strategic way tailoring to their purchase behaviours.
 
 
 - Group 1 (Blue cluster): **"Retain"**
