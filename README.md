@@ -20,7 +20,24 @@ Context : The company is a UK-based, solely online retail company, and the data 
 
 ## Insights
 
-Using K-Means clustering, there are 4 significant group of customers that the company should focus their Marketing Campaigns upon, ideally in a strategic way tailoring to their purchase behaviours.
+**1.**  **4285 unqiue customes** out of **406309** cleaned entries.
+
+**2.** Identified 3 groups in need for immediate attention, and compatible marketing/attracting campagain: 
+
+    - DELIGHT: Customers with high spending capacity and high frequency, and have interacted with the company recently.
+    
+        >> VIP Customers who drive the major impact within the company's financial growth, should be introduced with tailored services, can reward them with exclusive offers.
+        
+    - RE-ENGAGE: Customers who have not interacted with the company very recently, low in spending and low freq, but second highest number of customers within this group.
+        
+        >> Conduct: Investigation to see if any specific product the company has stopped selling that these customers may have bought, as this might be the reason the company loses these customers.
+
+    - ENGAGE: Largest group of customers (~30%), also have low spending capacity and low frequency behaviours
+
+        >> Also need investigation to see why this is the case
+
+    
+**2.** Using K-Means clustering, there are 4 significant group of customers that the company should focus their Marketing Campaigns upon, ideally in a strategic way tailoring to their purchase behaviours.
 
 
 - Group 1 (Blue cluster): **"Retain"**
