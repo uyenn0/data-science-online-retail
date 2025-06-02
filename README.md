@@ -8,8 +8,8 @@ Context : The company is a UK-based, solely online retail company, and the data 
 
 
 ## Skills Applied:
-- EDA: Retain 77% of cleaned data and applicable data for clustering, while using the other 23% data for outlier analysis, thus maintained most data for the company
-- Feature Engineering: Construct
+- EDA: Retained 77% of cleaned and applicable data for clustering, while using the other 23% data for outlier analysis, thus maintained most data for the company
+- Feature Engineering: Constructed
     1. MonetaryValue: How much a customer has spent, across the sum of their orders
     2. Frequency: Use InvoiceDate to count how many times they have placed an order
     3. Recency: Use InvoiceDate to check the last time a customer placed their purchase
@@ -37,6 +37,8 @@ Context : The company is a UK-based, solely online retail company, and the data 
     - ENGAGE: Largest group of customers (~30%), also have low spending capacity and low frequency behaviours
 
         >> Also need investigation to see why this is the case
+
+|<img width="1604" alt="screen" src="/assets/summary-visualisation.png">|
 
     
 **3.** Using K-Means clustering, there are 4 significant group of customers that the company should focus their Marketing Campaigns upon, ideally in a strategic way tailoring to their purchase behaviours.
